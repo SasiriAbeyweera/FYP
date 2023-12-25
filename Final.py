@@ -110,7 +110,7 @@ while True:
     limits6 = [320, 230, 320, 250]
 
     while True:
-        for n1 in range(99999):
+        for n1 in range(3):
             new_frame_time = time.time()
             success, img = cap.read()
             results = model(img, stream=True)
